@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">DemoApp</string>
     <string name="KEY">64NkN426AhPLirBSulHLLIJWei0csbUM</string>
+    <string name="title">Title</string>
+    <string name="abstractt">Abstract</string>
+    <string name="date">Date</string>
+    <string name="byline">ByLine</string>
+    <string name="source">Source</string>
 </resources>

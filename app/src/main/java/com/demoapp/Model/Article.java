@@ -1,6 +1,8 @@
 package com.demoapp.Model;
 
-public class Article {
+import java.io.Serializable;
+
+public class Article implements Serializable {
 
     private String title;
     private String _abstract;
