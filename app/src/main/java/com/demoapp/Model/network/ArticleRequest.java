@@ -32,7 +32,7 @@ public class ArticleRequest {
 
     public void getAllArticles (){
 
-        final String URL = "https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key="+context.getString(R.string.KEY);
+        final String URL = "https://api.nytimes.com/svc/mostpopular/v2/mostviewed/all-sections/30.json?api-key="+context.getString(R.string.KEY);
 
         JsonObjectRequest getRequest = new JsonObjectRequest(Request.Method.GET,URL , null,
                 response -> {
